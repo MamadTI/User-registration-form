@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SimpleFlow</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div>
+        <h1>Welcome to SimpleFlow</h1>
+        <p>Your Gateway to Effortless Management.</p>
+      </div>
+      <div class="bottom-text">
+        <h2>Seamless Collaboration</h2>
+        <p>Effortlessly work together with your team in real-time.</p>
+      </div>
+    </div>
+    <div class="right">
+      <form id="form" novalidate>
+
+        <div class="auth-header">
+            <img src="assets/form-image.png" alt="Form Illustration" class="form-image">
+            <div class="auth-tabs">
+                <button type="button" class="tab active">Sign Up</button>
+                <button type="button" class="tab locked">
+                    Sign In
+                    <span class="lock"></span>
+                </button>
+            </div>
+        </div>
+
+
+
+        <h2>Create Account</h2>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter Username">
+          <small></small>
+        </div>
+        <div class="input-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" placeholder="Enter Your Name">
+          <small></small>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter Your Email Address">
+          <small></small>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter Password">
+          <small></small>
+        </div>
+        <ul class="password-rules">
+          <li id="rule-strength">Password strength: Weak</li>
+          <li id="rule-length">At least 8 characters</li>
+          <li id="rule-symbol-number">Contains a number or symbol</li>
+          <li id="rule-no-personal">Cannot contain your name or email</li>
+        </ul>
+        <button type="submit" id="btn" disabled>Create Account</button>
+        <p id="success"></p>
+      </form>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

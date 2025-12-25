@@ -1,4 +1,4 @@
-# SimpleFlow - User Registration Form
+# User Registration Form
 
 ## 📋 Project Overview
 **SimpleFlow** is a modern and responsive user registration form designed with **HTML, CSS, and JavaScript**. The form provides real-time validation and user-friendly feedback, ensuring a smooth experience for users when creating an account. This project demonstrates form validation, interactive UI elements, and responsive design without relying on any frameworks or libraries.
